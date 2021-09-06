@@ -1,0 +1,39 @@
+body {
+    font-family: Andale Mono, monospace;
+  }
+  
+  .main {
+    background-color: #b1ba77;
+  }
+  
+  #titletext {
+    font-size: 2.4em;
+  }
+  
+  .bar {
+    fill: navy;
+  }
+  
+  .bar:hover {
+    fill: #ba8077;
+  }
+  
+  #tooltip {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    padding: 2px;
+    font: 12px;
+    background: #e2ee6b;
+    border: 1px groove black;
+    border-radius: 4px;
+    pointer-events: none;
+    color: black;
+    opacity: 0;
+    box-shadow: 1px 1px 10px;
+  }
+  
