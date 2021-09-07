@@ -1,0 +1,24 @@
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: #d8c894;
+  }
+  
+  
+  #tooltip {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 180px;
+    height: 60px;
+    padding: 2px;
+    font-size: 12px;
+    background: #749BC2;
+    border: 1px groove black;
+    border-radius: 4px;
+    pointer-events: none;
+    color: black;
+    opacity: 0;
+    box-shadow: 1px 1px 10px;
+  }
